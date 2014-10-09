@@ -1,0 +1,14 @@
+ h1 { 
+
+    color: #696969;
+    }
+
+ a {color: #696969;
+    }
+
+body {background: url("https://www.google.com/images/srpr/logo11w.png"); 
+      background-size: 50% 72%;
+}
+
+a:hover {color: #FF9966;
+}
