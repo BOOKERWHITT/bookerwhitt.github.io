@@ -1,41 +1,133 @@
-@media (max-width: 500px){
-         #navbar li{ 
 
-                float: none;
+
+body { 
+    width: 100%;
+    background: url('images/earth.jpeg');
+    font-size: 28px; 
+    background: #cedce7; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%) ; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)) no-repeat top center fixed; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%) ; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #cedce7 0%,#596a72 100%) ; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #cedce7 0%,#596a72 100%) ; /* IE10+ */
+    background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%) ; /* W3C */
+    background: #cedce7; /* Old browsers */
+    background: url('images/earth.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+} 
+
+
+
+.navlogo {
+          display: block;
+          width: 25%;
+          position: relative;
+          float: left;
+          text-align: left ;
+          height: 200px;
+
+        }
+
+
+.navbutton li {
+
+            display: inline-block;
+            list-style-type: none;
+             height: 200px;
+
+           }        
+
+.navbutton {
+           
+            display: inline-block; 
+            width: 75%;  
+            position: relative;   
+            text-align: center; 
+            float: right;  
+            height: 200px;   
+            
+        }
+
+ 
+ 
+.navbutton li a, .navbutton li a:link, .navbutton li a:visited
+                        {  
+                            display:block;
+                            width:150px;
+                            font-weight:bold;
+                            color:#D6D826;
+                            background-color:#989898;
+                            padding:4px;
+                            text-align:center;
+                            text-decoration:none;
+                            position: relative;
+                             }
+
+          .navbutton li a:hover, .navbutton li a:active
+                  {
+                        background-color:#7A991A;
+                        position: relative;
+                        }
+
+
+.container {display: block; 
+            width: 100%;
+             
+
+}
+
+
+/*#navbar li{ 
+
+  
+                 
                 list-style-type: none;}
    
 
            #navbar li a {
-
-                         text-decoration: none;      
-                          color: #333;      
-                          background-color: yellow;      
-                          display: inline;      
-                          width: 8em;      
-                          border: 1px dashed #333;      
-                          border-left: 5px solid #333;      
-                          border-bottom: none;  
+                        display:block;
+                        width:300px;
+                        height: 150px; 
+                       font-weight:bold;
+                       font-size: 24px;
+                       color:#75bdd1;;
+                        background-color: none;
+                        padding:4px;
+                        text-align:center;
+                        text-decoration:none;
+                        position: relative; 
                           }
  
-      }
 
-body { 
+        #navbar li a, #navbar li a:link, #navbar li a:visited
+                        {  
+                             display:block;
+                            width:120px;
+                            font-weight:bold;
+                            color:#00FFFF;
+                            background-color:#989898;
+                            padding:4px;
+                            text-align:center;
+                            text-decoration:none;
+                            position: relative;
+                             }
 
-		 
-    height: 1000px;
-    background: #cedce7, url("images/Booker.jpg"); /* Old browsers 
-    background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%), url("images/Booker.jpg"); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)) no-repeat top center fixed; /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #cedce7 0%,#596a72 100%),url("images/Booker.jpg") no-repeat top center fixed; /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #cedce7 0%,#596a72 100%), url("images/Booker.jpg"); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #cedce7 0%,#596a72 100%), url("images/Booker.jpg"); /* IE10+ */
-    background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%), url("images/Booker.jpg"); /* W3C */
-    background: #cedce7, url("images/Booker.jpg"); /* Old browsers */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
-}
+          #navbar li a:hover, #navbar li a:active
+                  {
+                        background-color:#7A991A;
+                        position: relative;
+                        }
 
 
-          #navbar li{ 
+          
+
+  @media (min-width: 992px){
+         #navbar li{ 
 
                 float:left;
                 list-style-type: none;
@@ -77,3 +169,6 @@ body {
    background-color:#7A991A;
    position: relative;
   }
+
+
+      }
