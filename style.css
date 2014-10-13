@@ -3,7 +3,7 @@
 body { 
     /*width: 100%;
     /*background: url('images/earth.jpeg');*/
-    font-size: 28px; /*
+    font-size: 50px; /*
     background: #cedce7; /* Old browsers */
     /*background: -moz-linear-gradient(top,  #cedce7 0%, #596a72 100%) ; /* FF3.6+ */
     /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedce7), color-stop(100%,#596a72)) no-repeat top center fixed; /* Chrome,Safari4+ */
@@ -12,7 +12,7 @@ body {
     /*background: -ms-linear-gradient(top,  #cedce7 0%,#596a72 100%) ; /* IE10+ */
     /*background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%) ; /* W3C */
     /*background: #cedce7; /* Old browsers */
-    background: url('images/earth.jpeg') no-repeat center center fixed; 
+    background: url('images/disney.jpeg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
