@@ -13,10 +13,10 @@ body {
     /*background: linear-gradient(to bottom,  #cedce7 0%,#596a72 100%) ; /* W3C */
     /*background: #cedce7; /* Old browsers */
     background: url('images/earth.jpeg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
 } 
