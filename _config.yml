@@ -1,0 +1,14 @@
+# Site settings
+title: Booker's World
+email: whittbt@yahoo.com
+permalink: "/blog/:year/:month/:day/:title/"
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://bookerwhitt.com/" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+
