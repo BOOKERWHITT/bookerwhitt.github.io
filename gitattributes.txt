@@ -9,3 +9,14 @@
 # These files are text and should be normalized (Convert crlf => lf)
 *.gitattributes text
 .gitignore text
+
+
+*.pbxproj -crlf -diff
+*.pbxproj binary
+*.doc diff=word
+textconv=strings
+*.odt diff=odt
+ 
+
+
+
